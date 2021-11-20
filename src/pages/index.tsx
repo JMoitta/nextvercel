@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <p className={styles.description}>
-          {process.env.ENV_VAR}
+          Process ENV {process.env.ENV_VAR}
         </p>
 
         <p className={styles.description}>
